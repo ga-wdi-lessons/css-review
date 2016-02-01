@@ -9,7 +9,11 @@
 
 ## Framing (10 min / 10 min)
 
-This lesson is going to be almost entirely you working through some exercises we have prepared for you.
+Q. What is CSS?
+---
+> Cascading Style Sheets are what make webpages look like more than just words on a page. HTML's only purpose is to say what purpose chunks of content serve; CSS's only purpose is to say what a chunk with a certain purpose should look like.
+
+This lesson is going to be almost entirely you working through some exercises we have prepared for you. You will not turn in these exercises. However, whoever completes them first and best gets bragging rights!
 
 These exercises may use CSS properties with which you're unfamiliar. In fact, you may not be familiar with CSS at all.
 
@@ -52,9 +56,18 @@ https://github.com/ga-wdi-exercises/hyrule_potion_shop
 
 ## Outtro
 
+There are over 500 CSS properties. It's impossible to memorize them. The key is to just get an idea of what you can accomplish with CSS, and then know what to Google.
+
+### Tools that can help
+
+**[The CSS Validator](http://jigsaw.w3.org/css-validator/#validate_by_input)** is a tool into which you can copy and paste your CSS, and it'll tell you precisely what's wrong with it. We'll be expecting you to validate your CSS during this course.
+
+**The Chrome element inspector** lets you look at a specific element on a page, see exactly which CSS rules are being applied to it, and turn those rules on and off and modify them. It doesn't change your file; refresh the page, and the changes are gone.
+
 Q. What is Bootstrap, and how do you feel about it?
 ---
 > Bootstrap is a CSS *library*: it's a stylesheet you can link to in your HTML, and it provides you with a bunch of classes that you can apply that make things look really nice.
+
 > Many designers sniff at Bootstrap because, they argue, sites that use it all look the same. However, unless you plan on specializing in front-end design, a Bootstrapped site may be better than a site with no CSS, or a site with handmade CSS: it shows that you recognize what your strengths are and are focused on delivering a product, rather than doing things the "right" way. 
 
 ## Quiz Questions
@@ -75,4 +88,5 @@ Q. What is Bootstrap, and how do you feel about it?
   - Search for a CSS property (or HTML, or JS), and it'll tell you on which web browsers it functions.
 - [LearnLayout.com](http://learnlayout.com/)
   - An great interactive tutorial that details CSS' many properties and quirks.
-
+- [CSS Validator](jigsaw.w3.org/css-validator/#validate_by_input)
+  - Copy and paste your CSS in here and it tells you what's wrong with it.
