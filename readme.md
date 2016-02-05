@@ -76,6 +76,8 @@ Q. What is Bootstrap, and how do you feel about it?
 - What does `*` select?
 - What does `box-sizing:border-box` do?
 - What's the difference between `position:relative`, `position:absolute`, and `position:fixed`?
+- What's the difference between borders, margins, and padding?
+- What's the difference between an outline and a border?
 - How would you apply styles only for screens narrower than 480 pixels?
 
 ## Further Reading
