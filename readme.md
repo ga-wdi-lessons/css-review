@@ -90,5 +90,5 @@ Q. What is Bootstrap, and how do you feel about it?
   - Search for a CSS property (or HTML, or JS), and it'll tell you on which web browsers it functions.
 - [LearnLayout.com](http://learnlayout.com/)
   - An great interactive tutorial that details CSS' many properties and quirks.
-- [CSS Validator](jigsaw.w3.org/css-validator/#validate_by_input)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
   - Copy and paste your CSS in here and it tells you what's wrong with it.
