@@ -92,3 +92,5 @@ Q. What is Bootstrap, and how do you feel about it?
   - An great interactive tutorial that details CSS' many properties and quirks.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
   - Copy and paste your CSS in here and it tells you what's wrong with it.
+- [CSS Tricks Almanac](https://css-tricks.com/almanac/)
+  - A list of css selectors and properties
