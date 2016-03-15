@@ -38,9 +38,9 @@ Please count off from 1 to `[class size / 2]`. In pairs, please work to complete
 
 Whoever completes the most questions gets bragging rights!
 
-## Break (10 min / 50 min)
+### Questions (10 min / 60 min)
 
-## Questions (10 min / 60 min)
+## Break (10 min / 50 min)
 
 ## You Do: Wendy Bite (30 min / 130 min)
 
@@ -48,7 +48,7 @@ Please count off again, and complete this exercise:
 
 [Wendy Bite](https://github.com/ga-wdi-exercises/wendy_bite)
 
-## Questions (10 min / 100 min)
+### Questions (10 min / 100 min)
 
 ## Bonus - You Do: Ghost CSS
 
@@ -56,7 +56,7 @@ Please count off again, and complete this exercise:
 
 ![2spooky4me](https://media.giphy.com/media/UBqZtU0cPF6Lu/giphy.gif)
 
-## Questions (10 min / 140 min)
+### Questions (10 min / 140 min)
 
 ## Outtro
 
@@ -72,7 +72,7 @@ Q. What is Bootstrap, and how do you feel about it?
 ---
 > Bootstrap is a CSS *library*: it's a stylesheet you can link to in your HTML, and it provides you with a bunch of classes that you can apply that make things look really nice.
 
-> Many designers sniff at Bootstrap because, they argue, sites that use it all look the same. However, unless you plan on specializing in front-end design, a Bootstrapped site may be better than a site with no CSS, or a site with handmade CSS: it shows that you recognize what your strengths are and are focused on delivering a product, rather than doing things the "right" way. 
+> Many designers sniff at Bootstrap because, they argue, sites that use it all look the same. However, unless you plan on specializing in front-end design, a Bootstrapped site may be better than a site with no CSS, or a site with handmade CSS: it shows that you recognize what your strengths are and are focused on delivering a product, rather than doing things the "right" way.
 
 ## Quiz Questions
 
