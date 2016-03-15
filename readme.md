@@ -87,17 +87,17 @@ Q. What is Bootstrap, and how do you feel about it?
 
 ## Further Reading
 
+- [Shay Howe's HTML/CSS Guide](http://learn.shayhowe.com)
+- [LearnLayout.com](http://learnlayout.com/)
+  - An great interactive tutorial that details CSS' many properties and quirks.
 - [W3Schools CSS Reference](http://www.w3schools.com/cssref/default.asp)
   - Almost every CSS property ever.
 - [Mozilla Developer Network CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
   - Like W3Schools, but in *much* more detail.
 - [CanIUse.com](http://caniuse.com/)
   - Search for a CSS property (or HTML, or JS), and it'll tell you on which web browsers it functions.
-- [LearnLayout.com](http://learnlayout.com/)
-  - An great interactive tutorial that details CSS' many properties and quirks.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
   - Copy and paste your CSS in here and it tells you what's wrong with it.
 - [CSS Tricks Almanac](https://css-tricks.com/almanac/)
   - A list of css selectors and properties
-
 - [CSS Units - em vs px etc](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
