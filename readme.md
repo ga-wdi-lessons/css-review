@@ -99,3 +99,5 @@ Q. What is Bootstrap, and how do you feel about it?
   - Copy and paste your CSS in here and it tells you what's wrong with it.
 - [CSS Tricks Almanac](https://css-tricks.com/almanac/)
   - A list of css selectors and properties
+
+- [CSS Units - em vs px etc](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
