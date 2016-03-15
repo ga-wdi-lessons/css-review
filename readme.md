@@ -38,19 +38,17 @@ Whoever completes the most questions gets bragging rights!
 
 ## Questions (10 min / 60 min)
 
-## You Do: Ghost CSS (30 min / 90 min)
+## You Do: Wendy Bite (30 min / 130 min)
 
 Please count off again, and complete this exercise:
 
-https://github.com/ga-wdi-exercises/css-ghost
+https://github.com/ga-wdi-exercises/wendy_bite
 
 ## Questions (10 min / 100 min)
 
-## You Do: Hyrule Potion Shop (30 min / 130 min)
+## Bonus - You Do: Ghost CSS
 
-Please count off again, and complete this exercise:
-
-https://github.com/ga-wdi-exercises/hyrule_potion_shop
+https://github.com/ga-wdi-exercises/css-ghost
 
 ## Questions (10 min / 140 min)
 
