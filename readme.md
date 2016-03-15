@@ -26,11 +26,15 @@ The purpose of this class isn't for you to walk away being an expert in all thin
 
 Remember: being a good web designer is like being a good artist. We can teach you to hold the paintbrush, but it's on you to create a masterpiece!
 
+## HTML / CSS Review
+
+See the [slides](html_css_review.pdf).
+
 ## You Do: CSS Crash Course (30 min / 40 min)
 
 Please count off from 1 to `[class size / 2]`. In pairs, please work to complete this exercise:
 
-https://github.com/ga-wdi-exercises/css-review
+[CSS Review Exercise](https://github.com/ga-wdi-exercises/css-review)
 
 Whoever completes the most questions gets bragging rights!
 
@@ -42,13 +46,15 @@ Whoever completes the most questions gets bragging rights!
 
 Please count off again, and complete this exercise:
 
-https://github.com/ga-wdi-exercises/wendy_bite
+[Wendy Bite](https://github.com/ga-wdi-exercises/wendy_bite)
 
 ## Questions (10 min / 100 min)
 
 ## Bonus - You Do: Ghost CSS
 
-https://github.com/ga-wdi-exercises/css-ghost
+[CSS Ghost](https://github.com/ga-wdi-exercises/css-ghost)
+
+![2spooky4me](https://media.giphy.com/media/UBqZtU0cPF6Lu/giphy.gif)
 
 ## Questions (10 min / 140 min)
 
