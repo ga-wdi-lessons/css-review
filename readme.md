@@ -31,6 +31,90 @@ Remember: being a good web designer is like being a good artist. We can teach yo
 
 See the [slides](html_css_review.pdf).
 
+### The Three Places CSS can go
+
+#### Inline Styles (Bad)
+
+```html
+<section>
+  <article style='border-bottom: 1px solid black;'>
+     ...
+  </article>
+</section>
+```
+
+#### Internal Styles (Better)
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+      article {
+        border-bottom: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <article>
+	 ...
+      </article>
+    </section>
+  </body>
+</html>
+```
+
+#### External Styles (Best)
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+  </head>
+  <body>
+    <section>
+      <article>
+	 ...
+      </article>
+    </section>
+  </body>
+</html>
+```
+
+```css
+/* styles.css */
+
+article {
+  border-bottom: 1px solid black;
+}
+```
+
+### Selecting Elements
+
+| Pattern | Meaning |
+|---|---|
+| * | any element |
+| E | an element of type E |
+| #myid | any element with ID equal to "myid" |
+| .myclass | any element with class equal to "myclass" |
+| E#myid | an E element with ID equal to "myid" |
+| E.myclass | an E element with class equal to "myclass" |
+| E F | an F element child of an E element |
+
+[And many more!](https://www.w3.org/TR/css3-selectors/#selectors)
+
+## You Do: [CSS Diner](http://flukeout.github.io/)
+
+### Box Model
+
+![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
+
+The Box Model explains how CSS Width is Calculated
+
+How big is the box in [box-model.html](http://www.wdidc.org/~jesse/box-model.html)?
+
 ## You Do: CSS Crash Course (30 min / 40 min)
 
 Please count off from 1 to `[class size / 2]`. In pairs, please work to complete this exercise:
@@ -43,19 +127,22 @@ Whoever completes the most questions gets bragging rights!
 
 ## Break (10 min / 50 min)
 
-## You Do: Wendy Bite (30 min / 130 min)
+## You do: Fashion Blog
 
-Please count off again, and complete this exercise:
+[fashion blog](https://github.com/ga-wdi-exercises/fashion-blog)
 
-[Wendy Bite](https://github.com/ga-wdi-exercises/wendy_bite)
+Check out https://www.google.com/fonts/specimen/Lato
+and https://itunes.apple.com/us/app/sip/id507257563?mt=12
 
 ### Questions (10 min / 100 min)
 
-## Bonus - You Do: Ghost CSS
+## Bonus! You Do: eCardly
 
-[CSS Ghost](https://github.com/ga-wdi-exercises/css-ghost)
+Please count off again, and complete this exercise:
 
-![2spooky4me](https://media.giphy.com/media/UBqZtU0cPF6Lu/giphy.gif)
+[eCardly](https://github.com/ga-wdi-exercises/ecardly)
+
+
 
 ### Questions (10 min / 140 min)
 
