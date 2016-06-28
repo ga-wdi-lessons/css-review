@@ -7,7 +7,7 @@
 - Identify the components of the box model
 - Differentiate between border-box and content-box values for box-sizing
 
-## Framing (10 min / 10 min)
+## Framing (5)
 
 ### What is CSS?
 
@@ -17,21 +17,11 @@ This lesson is going to be almost entirely you working through some exercises we
 
 These exercises may use CSS properties with which you're unfamiliar. In fact, you may not be familiar with CSS at all.
 
-
-### What should you do if something is unfamiliar?
-
-> 1. Read it like English. CSS is intended to be readable, although sometimes it's more successful than at other times.
-> 2. Look it up. If you don't know what `box-sizing` means, Google `css box-sizing`.
-
-The purpose of this class isn't for you to walk away being an expert in all things CSS. That takes months. Rather, it's for you to be exposed to all the things that can be accomplished with CSS. If they're on your radar, you can always look them up later.
-
-Remember: being a good web designer is like being a good artist. We can teach you to hold the paintbrush, but it's on you to create a masterpiece!
-
-## HTML / CSS Review
+## HTML / CSS Review (5 / 10)
 
 See the [slides](html_css_review.pdf).
 
-### The Three Places CSS can go
+### The Three Places CSS can go (5 / 15)
 
 #### Inline Styles (Bad)
 
@@ -91,62 +81,97 @@ article {
 }
 ```
 
-### Selecting Elements
+### Selecting Elements - Memorize (5 / 20)
 
-| Pattern | Meaning |
-|---|---|
-| * | any element |
-| E | an element of type E |
-| #myid | any element with ID equal to "myid" |
-| .myclass | any element with class equal to "myclass" |
-| E#myid | an E element with ID equal to "myid" |
-| E.myclass | an E element with class equal to "myclass" |
-| E F | an F element child of an E element |
+| Pattern   | Meaning                                             |
+|:----------|:----------------------------------------------------|
+| *         | any element                                         |
+| E         | an element of type E                                |
+| E, F      | any element of type E and any element with type F   |
+| #myid     | any element with ID equal to "myid"                 |
+| .myclass  | any element with class equal to "myclass"           |
+| E#myid    | an E element with ID equal to "myid"                |
+| E.myclass | an E element with class equal to "myclass"          |
+| E F       | an F element child of an E element                  |
+| E > F     | an F element that is a direct child of an E element |
 
 [And many more!](https://www.w3.org/TR/css3-selectors/#selectors)
 
-## You Do: [CSS Diner](http://flukeout.github.io/)
+Chilren vs dsecendants - [css tricks child & siblings](https://css-tricks.com/child-and-sibling-selectors/)
 
-### Box Model
+![children](https://css-tricks.com/wp-content/csstricks-uploads/child-combinator-selector-example.png) 
 
-![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
+## You Do: [CSS Diner](http://flukeout.github.io/) (10 / 30)
 
-The Box Model explains how CSS Width is Calculated
+### What should you do if something is unfamiliar?
 
-How big is the box in [box-model.html](http://www.wdidc.org/~jesse/box-model.html)?
+> 1. Read it like English. CSS is intended to be readable, although sometimes it's more successful than at other times.
+> 2. Look it up. If you don't know what `box-sizing` means, Google `css box-sizing`.
 
-## You Do: CSS Crash Course (30 min / 40 min)
+The purpose of this class isn't for you to walk away being an expert in all things CSS. That takes months. Rather, it's for you to be exposed to all the things that can be accomplished with CSS. If they're on your radar, you can always look them up later.
+
+Remember: being a good web designer is like being a good artist. We can teach you to hold the paintbrush, but it's on you to create a masterpiece!
+
+## You Do: CSS Crash Course (30 / 60)
 
 Please count off from 1 to `[class size / 2]`. In pairs, please work to complete this exercise:
 
 [CSS Review Exercise](https://github.com/ga-wdi-exercises/css-review)
+Please complete them in this order:
+1. selectors
+2. sizing
+3. positioning
 
 Whoever completes the most questions gets bragging rights!
 
-### Questions (10 min / 60 min)
+### Questions (10 / 70)
 
-## Break (10 min / 50 min)
+### Units
 
-## You do: Fashion Blog
+| Unit | Description                                                                                                                                                                                                                                            |
+|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| px   | Relative to the viewing device. For screen display, typically one device pixel (dot) of the display. For printers and very high resolution screens one CSS pixel implies multiple device pixels, so that the number of pixel per inch stays around 96. |
+| %    | Relative to the containing block                                                                                                                                                                                                                       |
+| em   | Relative to the font-size of the element (2em means 2 times the size of the current font)                                                                                                                                                              |
+| rem  | Relative to font-size of the root element                                                                                                                                                                                                              |
+| vw   | Relative to 1% of the width of the viewport                                                                                                                                                                                                            |
+| vh   | Relative to 1% of the height of the viewport                                                                                                                                                                                                           |
 
-[fashion blog](https://github.com/ga-wdi-exercises/fashion-blog)
+[more units](http://www.w3schools.com/cssref/css_units.asp)
+[mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/length)
 
-Check out https://www.google.com/fonts/specimen/Lato
-and https://itunes.apple.com/us/app/sip/id507257563?mt=12
+### Box-sizing: border-box;
 
-### Questions (10 min / 100 min)
+![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
 
-## Bonus! You Do: eCardly
+The Box Model explains how CSS Width is Calculated. By default how wide an element is on the page is a combination of width + padding + border and the rendered height = height + padding + border. This can be problematic when trying to create a layout or position things logically on the page.
+
+The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cfa3ae3eec7e2a6b0e8c97) property incorporates the size of the border and padding into the rendered width. 
+
+> If I say the width is 200px, gosh darn it, it’s gonna be a 200px wide box even if I have 20px of padding. - Paul Irish on box-sizing
+
+
+<!-- How big is the box in [box-model.html](http://www.wdidc.org/~jesse/box-model.html)? -->
+
+## Break (10/ 80)
+
+## You Do: Ghost CSS (30 / 110)
 
 Please count off again, and complete this exercise:
 
-[eCardly](https://github.com/ga-wdi-exercises/ecardly)
+https://github.com/ga-wdi-exercises/css-ghost
 
+### Questions (10 / 120)
 
+## You Do: Hyrule Potion Shop (30 / 150)
 
-### Questions (10 min / 140 min)
+Please count off again, and complete this exercise:
 
-## Outtro
+https://github.com/ga-wdi-exercises/hyrule_potion_shop
+
+### Questions (10 / 140)
+
+## Outtro (5)
 
 There are over 500 CSS properties. It's impossible to memorize them. The key is to just get an idea of what you can accomplish with CSS, and then know what to Google.
 
@@ -161,6 +186,8 @@ Q. What is Bootstrap, and how do you feel about it?
 > Bootstrap is a CSS *library*: it's a stylesheet you can link to in your HTML, and it provides you with a bunch of classes that you can apply that make things look really nice.
 
 > Many designers sniff at Bootstrap because, they argue, sites that use it all look the same. However, unless you plan on specializing in front-end design, a Bootstrapped site may be better than a site with no CSS, or a site with handmade CSS: it shows that you recognize what your strengths are and are focused on delivering a product, rather than doing things the "right" way.
+
+There are [many other](http://designsparkle.com/bootstrap-alternatives/) 'design frameworks' that are similar to bootstrap
 
 ## Quiz Questions
 
@@ -188,3 +215,8 @@ Q. What is Bootstrap, and how do you feel about it?
 - [CSS Tricks Almanac](https://css-tricks.com/almanac/)
   - A list of css selectors and properties
 - [CSS Units - em vs px etc](http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/)
+
+## Additional Resources
+
+- [Codrops](http://tympanus.net/codrops/)
+- [Codyhouse](https://codyhouse.co/library/)
