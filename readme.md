@@ -1,27 +1,28 @@
 # CSS Review
 
 ## Learning Objectives
+
 - Describe what on a webpage can be modified with CSS, and what cannot
 - Identify CSS methods that can replace bad habits in HTML
 - Properly separate the concerns of semantics and style
 - Identify the components of the box model
 - Differentiate between border-box and content-box values for box-sizing
 
-## Framing (5)
+## Framing (5 minutes / 0:05)
 
-### What is CSS?
+### What Is CSS?
 
 > Cascading Style Sheets are what make webpages look like more than just words on a page. HTML's only purpose is to say what purpose chunks of content serve; CSS's only purpose is to say what a chunk with a certain purpose should look like.
 
-This lesson is going to be almost entirely you working through some exercises we have prepared for you. You will not turn in these exercises. However, whoever completes them first and best gets bragging rights!
+This lesson is going to be almost entirely you working through some exercises we have prepared for you. You will not turn in these exercises.
 
 These exercises may use CSS properties with which you're unfamiliar. In fact, you may not be familiar with CSS at all.
 
-## HTML / CSS Review (5 / 10)
+## HTML / CSS Review (5 minutes / 0:10)
 
 See the [slides](html_css_review.pdf).
 
-### The Three Places CSS can go (5 / 15)
+### The Three Places CSS can go (5 minutes / 0:15)
 
 #### Inline Styles (Bad)
 
@@ -81,7 +82,7 @@ article {
 }
 ```
 
-### Selecting Elements - Memorize (5 / 20)
+### Selecting Elements - Memorize (5 minutes / 0:20)
 
 | Pattern   | Meaning                                             |
 |:----------|:----------------------------------------------------|
@@ -95,36 +96,33 @@ article {
 | E F       | an F element child of an E element                  |
 | E > F     | an F element that is a direct child of an E element |
 
-[And many more!](https://www.w3.org/TR/css3-selectors/#selectors)
+> [And many more!](https://www.w3.org/TR/css3-selectors/#selectors)
 
-Chilren vs dsecendants - [css tricks child & siblings](https://css-tricks.com/child-and-sibling-selectors/)
+Children vs. Descendants - [css tricks child & siblings](https://css-tricks.com/child-and-sibling-selectors/)
 
-![children](https://css-tricks.com/wp-content/csstricks-uploads/child-combinator-selector-example.png) 
+![children](https://css-tricks.com/wp-content/csstricks-uploads/child-combinator-selector-example.png)
 
-## You Do: [CSS Diner](http://flukeout.github.io/) (10 / 30)
+## You Do: [CSS Diner](http://flukeout.github.io/) (10 minutes / 0:30)
 
-### What should you do if something is unfamiliar?
+### What Should You Do If Something Is Unfamiliar?
 
 > 1. Read it like English. CSS is intended to be readable, although sometimes it's more successful than at other times.
 > 2. Look it up. If you don't know what `box-sizing` means, Google `css box-sizing`.
 
 The purpose of this class isn't for you to walk away being an expert in all things CSS. That takes months. Rather, it's for you to be exposed to all the things that can be accomplished with CSS. If they're on your radar, you can always look them up later.
 
-Remember: being a good web designer is like being a good artist. We can teach you to hold the paintbrush, but it's on you to create a masterpiece!
-
-## You Do: CSS Crash Course (30 / 60)
+## You Do: CSS Crash Course (30 minutes / 1:00)
 
 Please count off from 1 to `[class size / 2]`. In pairs, please work to complete this exercise:
 
 [CSS Review Exercise](https://github.com/ga-wdi-exercises/css-review)
-Please complete them in this order:
-1. selectors
-2. sizing
-3. positioning
 
-Whoever completes the most questions gets bragging rights!
+Please complete them in this order...
+1. Selectors  
+2. Sizing  
+3. Positioning  
 
-### Questions (10 / 70)
+### Questions (10 minutes / 1:10)
 
 ### Units
 
@@ -137,57 +135,48 @@ Whoever completes the most questions gets bragging rights!
 | vw   | Relative to 1% of the width of the viewport                                                                                                                                                                                                            |
 | vh   | Relative to 1% of the height of the viewport                                                                                                                                                                                                           |
 
-[more units](http://www.w3schools.com/cssref/css_units.asp)
-[mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/length)
+> [More Units](http://www.w3schools.com/cssref/css_units.asp)  
+> [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/length)  
 
-### Box-sizing: border-box;
+### `box-sizing: border-box;`
 
 ![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
 
-The Box Model explains how CSS Width is Calculated. By default how wide an element is on the page is a combination of width + padding + border and the rendered height = height + padding + border. This can be problematic when trying to create a layout or position things logically on the page.
+The Box Model explains how CSS `width` is Calculated. By default, how wide an element is on the page is a combination of `width` + `padding` + `border` and the rendered `height` = `height` + `padding` + `border`. This can be problematic when trying to create a layout or position things logically on the page.
 
-The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cfa3ae3eec7e2a6b0e8c97) property incorporates the size of the border and padding into the rendered width. 
+The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cfa3ae3eec7e2a6b0e8c97) property incorporates the size of the border and padding into the rendered width.
 
 > If I say the width is 200px, gosh darn it, it’s gonna be a 200px wide box even if I have 20px of padding. - Paul Irish on box-sizing
 
+## Break (10 minutes / 1:20)
 
-<!-- How big is the box in [box-model.html](http://www.wdidc.org/~jesse/box-model.html)? -->
-
-## Break (10/ 80)
-
-## You Do: Ghost CSS (30 / 110)
+## You Do: Ghost CSS (30 minutes / 1:50)
 
 Please count off again, and complete this exercise:
 
-https://github.com/ga-wdi-exercises/css-ghost
+[CSS Ghost](https://github.com/ga-wdi-exercises/css-ghost)
 
-### Questions (10 / 120)
+### Questions (10 minutes / 2:00)
 
-## You Do: Hyrule Potion Shop (30 / 150)
+## You Do: Hyrule Potion Shop (20 minutes / 2:20)
+
+<!-- AM: Need to replace this with some other exercise. -->
 
 Please count off again, and complete this exercise:
 
-https://github.com/ga-wdi-exercises/hyrule_potion_shop
+[Hyrule Potion Shop](https://github.com/ga-wdi-exercises/hyrule_potion_shop)
 
-### Questions (10 / 140)
-
-## Outtro (5)
+### Closing / Questions (10 minutes / 2:30)
 
 There are over 500 CSS properties. It's impossible to memorize them. The key is to just get an idea of what you can accomplish with CSS, and then know what to Google.
 
-### Tools that can help
+### Tools That Can Help
 
 **[The CSS Validator](http://jigsaw.w3.org/css-validator/#validate_by_input)** is a tool into which you can copy and paste your CSS, and it'll tell you precisely what's wrong with it. We'll be expecting you to validate your CSS during this course.
 
 **The Chrome element inspector** lets you look at a specific element on a page, see exactly which CSS rules are being applied to it, and turn those rules on and off and modify them. It doesn't change your file; refresh the page, and the changes are gone.
 
-Q. What is Bootstrap, and how do you feel about it?
----
-> Bootstrap is a CSS *library*: it's a stylesheet you can link to in your HTML, and it provides you with a bunch of classes that you can apply that make things look really nice.
-
-> Many designers sniff at Bootstrap because, they argue, sites that use it all look the same. However, unless you plan on specializing in front-end design, a Bootstrapped site may be better than a site with no CSS, or a site with handmade CSS: it shows that you recognize what your strengths are and are focused on delivering a product, rather than doing things the "right" way.
-
-There are [many other](http://designsparkle.com/bootstrap-alternatives/) 'design frameworks' that are similar to bootstrap
+-----
 
 ## Quiz Questions
 
