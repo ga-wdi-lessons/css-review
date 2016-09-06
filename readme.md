@@ -35,7 +35,7 @@ The purpose of this class isn't for you to walk away being an expert in all thin
 
 Please complete this exercise on your own. It's an interactive walkthrough on the different ways you can select elements in CSS. Don't worry if you don't get to the end. The important part is that you get through the earlier basic CSS selectors and, if you have time, give the more advanced selectors and pseudo-selectors a spin.
 
-## Questions (5 minutes / 0:20)
+### Questions (5 minutes / 0:20)
 
 ## You Do: [CSS Review](https://github.com/ga-wdi-exercises/css-review) (30 minutes / 0:50)
 
@@ -48,7 +48,7 @@ This exercise is divided into multiple sections. Complete them in the following 
 
 > You might encounter some layout properties and techniques you have not yet used in the `Positioning` portion.
 
-## Questions (10 minutes / 0:55)
+### Questions (10 minutes / 0:55)
 
 ## Break (10 minutes / 1:05)
 
@@ -68,7 +68,7 @@ Again, you will be recreating an image -- albeit a different one -- using code.
 
 If you have time, try this exercise in which you recreate a portion of Airbnb's website using HTML and CSS.
 
-### Closing / Questions (10 minutes / 2:30)
+## Closing / Questions (10 minutes / 2:30)
 
 There are over 500 CSS properties. It's impossible to memorize them. The key is to just get an idea of what you can accomplish with CSS, and then know what to Google.
 
