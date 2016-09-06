@@ -33,32 +33,40 @@ The purpose of this class isn't for you to walk away being an expert in all thin
 
 ## You Do: [CSS Diner](http://flukeout.github.io/) (10 minutes / 0:15)
 
-## You Do: CSS Crash Course (30 minutes / 0:45)
+Please complete this exercise on your own. It's an interactive walkthrough on the different ways you can select elements in CSS. Don't worry if you don't get to the end. The important part is that you get through the earlier basic CSS selectors and, if you have time, give the more advanced selectors and pseudo-selectors a spin.
 
-Please count off from 1 to `[class size / 2]`. In pairs, please work to complete this exercise:
+## Questions (5 minutes / 0:20)
 
-[CSS Review Exercise](https://github.com/ga-wdi-exercises/css-review)
+## You Do: [CSS Review](https://github.com/ga-wdi-exercises/css-review) (30 minutes / 0:50)
 
-Please complete them in this order...  
+You will be working in pairs to complete this exercise. Please count off from 1 to `[class size / 2]`.
+
+This exercise is divided into multiple sections. Complete them in the following order...
   1. Selectors   
   2. Sizing  
   3. Positioning  
 
-### Questions (10 minutes / 0:55)
+> You might encounter some layout properties and techniques you have not yet used in the `Positioning` portion.
+
+## Questions (10 minutes / 0:55)
 
 ## Break (10 minutes / 1:05)
 
 ## You Do: [eCardly](https://github.com/ga-wdi-exercises/ecardly) (30 minutes / 1:35)
 
+In this exercise you will be given an image of a website. It's your task to use the CSS properties you know -- or have yet to learn! -- to recreate it using HTML and CSS.
+
 > If you'd like to add a webfont, take a look at [Lato on Google Fonts](https://fonts.google.com/specimen/Lato?query=lato).
 
 ### Questions (10 minutes / 1:45)
 
-## You Do: Moonrise Kingdom (30 Minutes / 2:15)
+## You Do: [Moonrise Kingdom](https://github.com/ga-wdi-exercises/moonrise_kingdom) (30 Minutes / 2:15)
 
-[Moonrise Kingdom](https://github.com/ga-wdi-exercises/moonrise_kingdom)
+Again, you will be recreating an image -- albeit a different one -- using code.
 
 ## You Do (Bonus): [CSS Airbnb](https://github.com/ga-wdi-exercises/css-airbnb)
+
+If you have time, try this exercise in which you recreate a portion of Airbnb's website using HTML and CSS.
 
 ### Closing / Questions (10 minutes / 2:30)
 
