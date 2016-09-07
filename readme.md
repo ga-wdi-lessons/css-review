@@ -48,11 +48,7 @@ This exercise is divided into multiple sections. Complete them in the following 
   2. Sizing  
   3. Positioning  
 
-### Questions (10 minutes / 0:55)
-
-## Break (10 minutes / 1:05)
-
-## A Quick Note About `width` and `box-sizing`
+### A Note About `width` and `box-sizing`
 
 ![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
 
@@ -61,6 +57,10 @@ The Box Model explains how CSS `width` is Calculated. By default, how wide an el
 The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cfa3ae3eec7e2a6b0e8c97) property incorporates the size of the border and padding into the rendered width.
 
 > If I say the width is 200px, gosh darn it, it’s gonna be a 200px wide box even if I have 20px of padding. - Paul Irish on box-sizing
+
+### Questions (10 minutes / 0:55)
+
+## Break (10 minutes / 1:05)
 
 ## You Do: [eCardly](https://github.com/ga-wdi-exercises/ecardly) (30 minutes / 1:35)
 
