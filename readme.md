@@ -52,7 +52,7 @@ This exercise is divided into multiple sections. Complete them in the following 
 
 ## Break (10 minutes / 1:05)
 
-### A Quick Note About `width` and `box-sizing`
+## A Quick Note About `width` and `box-sizing`
 
 ![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
 
