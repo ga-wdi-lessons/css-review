@@ -14,7 +14,7 @@
 
 > Cascading Style Sheets are what make webpages look like more than just words on a page. HTML's only purpose is to say what purpose chunks of content serve; CSS's only purpose is to say what a chunk with a certain purpose should look like.
 
-You can accomplish [a lot with very little](http://purecss.io/) using CSS. And if you want to go the extra mile, you can accomplish some [seriously amazing things](http://codepen.io/). Oftentimes when dealing with CSS, [it can be a pain](http://i.imgur.com/Q3cUg29.gif).
+You can accomplish [a lot with very little](http://jgthms.com/web-design-in-4-minutes/) using CSS. If you want to go the extra mile, you can accomplish some [seriously amazing things](http://codepen.io/). Oftentimes when dealing with CSS, [it can be a pain](http://i.imgur.com/Q3cUg29.gif).
 
 No matter how you look at it, however, a working knowledge of CSS is absolutely essential. When it comes time to show off your projects at the Student Spotlight after this course, the first thing most prospective employers will see is your styling. And as we all know, first impressions are incredibly important.
 
