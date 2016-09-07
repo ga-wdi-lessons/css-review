@@ -12,19 +12,21 @@
 
 ### What Is CSS?
 
-![family guy css gif](http://i.imgur.com/Q3cUg29.gif)
-
 > Cascading Style Sheets are what make webpages look like more than just words on a page. HTML's only purpose is to say what purpose chunks of content serve; CSS's only purpose is to say what a chunk with a certain purpose should look like.
 
-This lesson is going to be almost entirely you working through some exercises we have prepared for you. You will not turn in these exercises.
+You can accomplish [a lot with very little](http://purecss.io/) using CSS. And if you want to go the extra mile, you can accomplish some [seriously amazing things](http://codepen.io/). Oftentimes when dealing with CSS, [it can be a pain](http://i.imgur.com/Q3cUg29.gif).
 
-These exercises may use CSS properties with which you're unfamiliar. In fact, you may not be familiar with CSS at all.
+No matter how you look at it, however, a working knowledge of CSS is absolutely essential. When it comes time to show off your projects at the Student Spotlight after this course, the first thing most prospective employers will see is your styling. And as we all know, first impressions are incredibly important.
+
+This afternoon is going to be almost entirely you working through some exercises we have prepared for you. You will not turn in these exercises.
+
+This is a step towards building that working knowledge of CSS and solidifying what you learned in the pre-work. Your goal isn't to memorize all the 500+ CSS properties that are out there. That's impossible. Your goal is to just get an idea of what you can accomplish with CSS, and then know what to Google.
 
 ### Tools That Can Help
 
 **[The CSS Validator](http://jigsaw.w3.org/css-validator/#validate_by_input)** is a tool into which you can copy and paste your CSS, and it'll tell you precisely what's wrong with it. We'll be expecting you to validate your CSS during this course.
 
-**The Chrome Element Inspector** lets you look at a specific element on a page, see exactly which CSS rules are being applied to it, and turn those rules on and off and modify them. It doesn't change your file; refresh the page, and the changes are gone.
+**[The Chrome Element Inspector](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/?hl=en)** lets you look at a specific element on a page, see exactly which CSS rules are being applied to it, and turn those rules on and off and modify them. It doesn't change your file; refresh the page, and the changes are gone.
 
 ### What Should You Do If Something Is Unfamiliar?
 
@@ -37,9 +39,7 @@ The purpose of this class isn't for you to walk away being an expert in all thin
 
 Please complete this exercise on your own. It's an interactive walkthrough on the different ways you can select elements in CSS. Don't worry if you don't get to the end. The important part is that you get through the earlier basic CSS selectors and, if you have time, give the more advanced selectors and pseudo-selectors a spin.
 
-### Questions (5 minutes / 0:20)
-
-## You Do: [CSS Review](https://github.com/ga-wdi-exercises/css-review) (30 minutes / 0:50)
+## You Do: [CSS Review](https://github.com/ga-wdi-exercises/css-review) (30 minutes / 0:45)
 
 You will be working in pairs to complete this exercise. Please count off from 1 to `[class size / 2]`.
 
@@ -47,8 +47,6 @@ This exercise is divided into multiple sections. Complete them in the following 
   1. Selectors   
   2. Sizing  
   3. Positioning  
-
-> You might encounter some layout properties and techniques you have not yet used in the `Positioning` portion.
 
 ### Questions (10 minutes / 0:55)
 
