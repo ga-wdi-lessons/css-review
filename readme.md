@@ -52,6 +52,16 @@ This exercise is divided into multiple sections. Complete them in the following 
 
 ## Break (10 minutes / 1:05)
 
+### A Quick Note About `width` and `box-sizing`
+
+![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
+
+The Box Model explains how CSS `width` is Calculated. By default, how wide an element is on the page is a combination of `width` + `padding` + `border` and the rendered `height` = `height` + `padding` + `border`. This can be problematic when trying to create a layout or position things logically on the page.
+
+The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cfa3ae3eec7e2a6b0e8c97) property incorporates the size of the border and padding into the rendered width.
+
+> If I say the width is 200px, gosh darn it, it’s gonna be a 200px wide box even if I have 20px of padding. - Paul Irish on box-sizing
+
 ## You Do: [eCardly](https://github.com/ga-wdi-exercises/ecardly) (30 minutes / 1:35)
 
 In this exercise you will be given an image of a website. It's your task to use the CSS properties you know -- or have yet to learn! -- to recreate it using HTML and CSS.
@@ -158,8 +168,6 @@ article {
 
 [Children vs. Descendants](https://css-tricks.com/child-and-sibling-selectors/)
 
-![children](https://css-tricks.com/wp-content/csstricks-uploads/child-combinator-selector-example.png)
-
 ### Units
 
 | Unit | Description                                                                                                                                                                                                                                            |
@@ -174,16 +182,6 @@ article {
 > [More Units](http://www.w3schools.com/cssref/css_units.asp)  
 > [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/length)  
 
-### Width and Box-Sizing
-
-![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
-
-The Box Model explains how CSS `width` is Calculated. By default, how wide an element is on the page is a combination of `width` + `padding` + `border` and the rendered `height` = `height` + `padding` + `border`. This can be problematic when trying to create a layout or position things logically on the page.
-
-The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cfa3ae3eec7e2a6b0e8c97) property incorporates the size of the border and padding into the rendered width.
-
-> If I say the width is 200px, gosh darn it, it’s gonna be a 200px wide box even if I have 20px of padding. - Paul Irish on box-sizing
-
 ### The `position` Property
 
 [CSS Tricks Guide to Position](https://css-tricks.com/almanac/properties/p/position/)
@@ -192,13 +190,11 @@ The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cf
 
 ## Quiz Questions
 
-- What is the purpose of `flex-box`?
 - What does `*` select?
-- What does `box-sizing:border-box` do?
-- What's the difference between `position:relative`, `position:absolute`, and `position:fixed`?
+- What does `box-sizing: border-box` do?
 - What's the difference between borders, margins, and padding?
 - What's the difference between an outline and a border?
-- How would you apply styles only for screens narrower than 480 pixels?
+- What's the difference between `position:relative`, `position:absolute`, and `position:fixed`?
 
 ## Further Reading
 
