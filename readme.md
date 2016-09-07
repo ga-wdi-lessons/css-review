@@ -12,6 +12,8 @@
 
 ### What Is CSS?
 
+![family guy css gif](http://i.imgur.com/Q3cUg29.gif)
+
 > Cascading Style Sheets are what make webpages look like more than just words on a page. HTML's only purpose is to say what purpose chunks of content serve; CSS's only purpose is to say what a chunk with a certain purpose should look like.
 
 This lesson is going to be almost entirely you working through some exercises we have prepared for you. You will not turn in these exercises.
