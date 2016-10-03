@@ -33,13 +33,32 @@ This is a step towards building that working knowledge of CSS and solidifying wh
 > 1. Read it like English. CSS is intended to be readable, although sometimes it's more successful than at other times.
 > 2. Look it up. If you don't know what `box-sizing` means, Google `css box-sizing`.
 
-The purpose of this class isn't for you to walk away being an expert in all things CSS. That takes months. Rather, it's for you to be exposed to all the things that can be accomplished with CSS. If they're on your radar, you can always look them up later.
+The purpose of this class isn't for you to walk away being an expert in all things CSS. That takes months, and tolerating many unexpected, sometimes counter-intuitive results. Rather, it's for you to be exposed to all the things that can be accomplished with CSS. If they're on your radar, you can always look them up later.
+
+## Scavenger Hunt
+
+For the rest of class, we're going to do a series of CSS exercises. The best way to get better at something is to practice. We will review the CSS you've already learned, while refining and adding to your understanding.
+
+Identify different ways of writing ***selectors*** as you progress through the exercises. There's a checklist below to outline important takeaways from the exercises.
+
+> Note: The checkboxes are clickable, but don't have any functionality beyond that. In your own notes, you can copy and paste the below items into a text editor and write the appropriate CSS rules & selector below.
+
+Write a ***selector*** that will select and apply a style to:
+ - [ ] any element
+ - [ ] an element of type E
+ - [ ] any element of type E and any element with type F
+ - [ ] any element with ID equal to "myid"
+ - [ ] any element with class equal to "myclass"
+ - [ ] an E element with ID equal to "myid"
+ - [ ] an E element with class equal to "myclass"
+ - [ ] an F element child of an E element
+ - [ ] an F element that is a direct child of an E element
 
 ## You Do: [CSS Diner](http://flukeout.github.io/) (10 minutes / 0:15)
 
 Please complete this exercise on your own. It's an interactive walkthrough on the different ways you can select elements in CSS. Don't worry if you don't get to the end. The important part is that you get through the earlier basic CSS selectors and, if you have time, give the more advanced selectors and pseudo-selectors a spin.
 
-## You Do: [CSS Review](https://github.com/ga-wdi-exercises/css-review) (30 minutes / 0:45)
+## Y'all Do (in pairs): [CSS Review](https://github.com/ga-wdi-exercises/css-review) (30 minutes / 0:45)
 
 You will be working in pairs to complete this exercise. Please count off from 1 to `[class size / 2]`.
 
