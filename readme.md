@@ -41,7 +41,7 @@ For the rest of class, we're going to do a series of CSS exercises. The best way
 
 Identify different ways of writing ***selectors*** as you progress through the exercises. There's a checklist below to outline important takeaways from the exercises.
 
-> Note: The checkboxes are clickable, but don't have any functionality beyond that. In your own notes, you can copy and paste the below items into a text editor and write the appropriate CSS rules & selector below.
+> Note: The checkboxes are not clickable. In your own notes, you can copy and paste the below items into a text editor and write the appropriate CSS rules & selector below.
 
 Write a ***selector*** that will select and apply a style to:
  - [ ] any element
