@@ -103,6 +103,10 @@ There are over 500 CSS properties. It's impossible to memorize them. The key is 
 
 -----
 
+## Homework: [Wendy Bite](https://github.com/ga-wdi-exercises/wendy_bite)
+
+-----
+
 ## Appendix
 
 ### Review Slides
