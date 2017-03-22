@@ -74,8 +74,12 @@ This exercise is divided into multiple sections. Complete them in the following 
 The Box Model explains how CSS `width` is Calculated. By default, how wide an element is on the page is a combination of `width` + `padding` + `border` and the rendered `height` = `height` + `padding` + `border`. This can be problematic when trying to create a layout or position things logically on the page.
 
 The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cfa3ae3eec7e2a6b0e8c97) property incorporates the size of the border and padding into the rendered width.
+(Click [here for further reading](https://css-tricks.com/box-sizing/) on box-sizing)
 
 > If I say the width is 200px, gosh darn it, it’s gonna be a 200px wide box even if I have 20px of padding. - Paul Irish on box-sizing
+
+`border-box` keeps border and padding sizes trapped inside the "border"
+`content-box` pushes border and padding sizes outside the element's "content" area
 
 ### Questions (10 minutes / 0:55)
 
