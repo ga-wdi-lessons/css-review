@@ -18,7 +18,7 @@ You can accomplish [a lot with very little](http://jgthms.com/web-design-in-4-mi
 
 No matter how you look at it, however, a working knowledge of CSS is absolutely essential. When it comes time to show off your projects at the Student Spotlight after this course, the first thing most prospective employers will see is your styling. And as we all know, first impressions are incredibly important.
 
-This afternoon is going to be almost entirely you working through some exercises we have prepared for you. You will not turn in these exercises.
+This morning is going to be almost entirely you working through some exercises we have prepared for you. You will not turn in these exercises.
 
 This is a step towards building that working knowledge of CSS and solidifying what you learned in the pre-work. Your goal isn't to memorize all the 500+ CSS properties that are out there. That's impossible. Your goal is to just get an idea of what you can accomplish with CSS, and then know what to Google.
 
