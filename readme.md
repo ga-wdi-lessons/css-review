@@ -12,7 +12,7 @@
 
 ### What Is CSS?
 
-> Cascading Style Sheets are what make webpages look like more than just words on a page. HTML's only purpose is to say what purpose chunks of content serve; CSS's only purpose is to say what a chunk with a certain purpose should look like.
+> Cascading stylesheets (CSS) are what make webpages look like more than just words on a page. HTML's only purpose is to say what purpose chunks of content serve. CSS's only purpose is to say what a chunk with a certain purpose should look like.
 
 You can accomplish [a lot with very little](http://jgthms.com/web-design-in-4-minutes/) using CSS. If you want to go the extra mile, you can accomplish some [seriously amazing things](http://codepen.io/). Oftentimes when dealing with CSS, [it can be a pain](http://i.imgur.com/Q3cUg29.gif).
 
@@ -58,7 +58,7 @@ Write a ***selector*** that will select and apply a style to:
 
 Please complete this exercise on your own. It's an interactive walkthrough on the different ways you can select elements in CSS. Don't worry if you don't get to the end. The important part is that you get through the earlier basic CSS selectors and, if you have time, give the more advanced selectors and pseudo-selectors a spin.
 
-## Y'all Do (in pairs): [CSS Review](https://github.com/ga-wdi-exercises/css-review) (30 minutes / 0:45)
+## You Do: [CSS Review](https://github.com/ga-wdi-exercises/css-review) (30 minutes / 0:45)
 
 You will be working in pairs to complete this exercise. Please count off from 1 to `[class size / 2]`.
 
@@ -71,7 +71,7 @@ This exercise is divided into multiple sections. Complete them in the following 
 
 ![](https://dl.dropbox.com/s/d1fk9mu23q0byhh/Screenshot%202016-05-25%2009.08.53.png?dl=0)
 
-The Box Model explains how CSS `width` is Calculated. By default, how wide an element is on the page is a combination of `width` + `padding` + `border` and the rendered `height` = `height` + `padding` + `border`. This can be problematic when trying to create a layout or position things logically on the page.
+The **box model** explains how CSS `width` is calculated. By default, how wide an element is on the page is a combination of `width` + `padding` + `border` and the rendered `height` = `height` + `padding` + `border`. This can be problematic when trying to create a layout or position things logically on the page.
 
 The [box-sizing: border-box;](http://codepen.io/team/css-tricks/pen/970f26f621cfa3ae3eec7e2a6b0e8c97) property incorporates the size of the border and padding into the rendered width.
 
