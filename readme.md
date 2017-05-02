@@ -93,10 +93,6 @@ In this exercise you will be given an image of a website. It's your task to use 
 
 Again, you will be recreating an image -- albeit a different one -- using code.
 
-## You Do (Bonus): [CSS Airbnb](https://github.com/ga-wdi-exercises/css-airbnb)
-
-If you have time, try this exercise in which you recreate a portion of Airbnb's website using HTML and CSS.
-
 ## Closing / Questions (10 minutes / 2:30)
 
 There are over 500 CSS properties. It's impossible to memorize them. The key is to just get an idea of what you can accomplish with CSS, and then know what to Google.
